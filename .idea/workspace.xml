@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9926c73c-d4bb-432c-8a35-6c8e4b2841dd" name="Changes" comment="" />
+    <list default="true" id="9926c73c-d4bb-432c-8a35-6c8e4b2841dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz_tic_tac_toe_game/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz_tic_tac_toe_game/TicTacToe.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
