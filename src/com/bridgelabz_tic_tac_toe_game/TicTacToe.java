@@ -11,9 +11,12 @@ public class TicTacToe {
         System.out.println("Welcome to Tic-Tac-Toe game....");
         createEmptyBoard();
         chooseLetter();
-        showBoard();
-        playerTurn();
-        checkFreeSpace();
+        while (true) {
+            playerTurn();
+            showBoard();
+            checkFreeSpace();
+            checkFirstPlayer();
+        }
     }
 
     /**
@@ -83,5 +86,19 @@ public class TicTacToe {
             System.out.println("Free space is available! you have " + numOfFreeSpaces + " moves left");
         }
     }
+
+    /**
+     * UC6 :checkFirstPlayer-method to check who plays first computer or user
+     */
+    private static void checkFirstPlayer() {
+        int Head = 0;
+        double toss = Math.floor(Math.random() * 10) % 2;
+        if (toss == Head) {
+            System.out.println("computer starts to play first");
+        } else {
+            System.out.println("User starts to play first");
+        }
+    }
+
 
 }
